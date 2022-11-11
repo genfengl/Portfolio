@@ -1,12 +1,14 @@
+
+
 const Navbar = () => {
     return (
         // Navbar
-        <nav className="relative container mx-auto p-6 sticky top-0">
+        <nav className="relative container mx-auto py-8 px-6 sticky top-0">
             {/* Flex container */}
-            <div className="flex items-center justify-between">
+            <div className="flex align-middle justify-between">
                 {/* Brand */}
-                <div className="pt-2 font-bold text-xl">
-                    GERALD L.
+                <div className="font-bold text-2xl flex gap-2 items-center">
+                    <img src="/logo.gif" className="h-6 w-6" />  GERALD
                 </div>
             </div>
         </nav>

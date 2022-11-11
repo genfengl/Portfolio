@@ -3,16 +3,11 @@ const About = () => {
         // About section
         <section id='about'>
             {/* Flex Container */}
-            <div className="container flex flex-col">
-                <div className="text-4xl font-bold">
-                    Hi!
+            <div className="container mx-auto flex flex-col">
+                <div className="text-xl font-bold p-6">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio veniam quas consequatur labore, in vero?
                 </div>
-                <div className="text-4xl font-bold">
-                    I'm Gerald,
-                </div>
-                <div className="text-4xl font-bold">
-                    Software Developer.
-                </div>
+                
             </div>
         </section>
     )
