@@ -9,7 +9,7 @@ const Hero = () => {
             {/* Flex Container */}
             <div className="container mx-auto flex flex-col px-6 py-16">
                 <div className="text-4xl font-bold flex flex-wrap">
-                    <RiCodeFill className='inline-flex items-center py-1' />
+                    <RiCodeFill className='inline-flex items-center mt-1' />&nbsp;
                     <span>Transforming&nbsp;</span>
                     <span className="animate-gradientAnimation text-transparent bg-clip-text 
                     bg-gradient-to-r 
@@ -22,7 +22,7 @@ const Hero = () => {
                     <span>world&nbsp;</span>
                     <span>applications&nbsp;</span>  
                     <span className='inline-flex animate-blink opacity-0'>_</span>
-                    &nbsp;<RiCodeSSlashFill className='inline-block items-center pt-2' />
+                    &nbsp;<RiCodeSSlashFill className='inline-block items-center my-1' />
                 </div>
 
             </div>
