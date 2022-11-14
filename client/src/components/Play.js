@@ -15,8 +15,15 @@ const Play = () => {
                     <div className='flex items-center text-2xl'><FaGithub /></div>
                     <div className='flex items-center text-2xl'><FaLinkedin /></div>
                 </div>
+                <div className="col-start-2 col-end-3 row-span-2 relative w-full max-w z-10">
+                    <div className="absolute -top-4 -right-4 w-36 h-36 bg-purple-300 rounded-full 
+                    mix-blend-multiply filter blur-2xl opacity-70 animate-play "></div>
+                    <div className="absolute top-0 -left-12 w-36 h-36 bg-blue-300 rounded-full 
+                    mix-blend-multiply filter blur-2xl opacity-70 animate-play animation-delay-2000"></div>
+                    <div className="absolute -bottom-10 right-2 w-36 h-36 bg-pink-300 rounded-full 
+                    mix-blend-multiply filter blur-2xl opacity-70 animate-play animation-delay-4000"></div>
+                </div>
             </div>
-
         </section>
     )
 }

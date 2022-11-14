@@ -12,7 +12,7 @@ module.exports = {
         word: '#fafafa',
         dream1: '#9CECFB',
         dream2: '#65C7F7',
-        dream3: '#0052D4'
+        dream3: '#0052D4',
       },
       
       keyframes: {
@@ -34,12 +34,27 @@ module.exports = {
           '60%': { transform: 'rotate(0.0deg)' },
           '100%': { transform: 'rotate(0.0deg)' },
         },
+        play: {
+          '0%': {
+            transform: 'translate(0px, 0px) scale(1)',
+          },
+          '33%': {
+            transform: 'translate(20px, -20px) scale(1.2)',
+          },
+          '66%': {
+            transform: 'translate(-20px, 20px) scale(0.8)',
+          },
+          '100%': {
+            transform: 'translate(0px, 0px) scale(1)',
+          }
+        }
         
       },
       animation: {
         gradientAnimation: 'gradientAnimation 3s ease-in-out infinite ',
         blink: 'blink 1s ease-in-out infinite ',
         wave: 'wave 3s ease-in-out infinite',
+        play: 'play 12s ease-in-out infinite'
       },
       backgroundSize: {
         'size-200': '200% 200%',
