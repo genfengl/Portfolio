@@ -39,7 +39,7 @@ module.exports = {
             transform: 'translate(0px, 0px) scale(1)',
           },
           '33%': {
-            transform: 'translate(20px, -20px) scale(1.2)',
+            transform: 'translate(20px, -18px) scale(1.2)',
           },
           '66%': {
             transform: 'translate(-20px, 20px) scale(0.8)',
@@ -54,7 +54,7 @@ module.exports = {
         gradientAnimation: 'gradientAnimation 3s ease-in-out infinite ',
         blink: 'blink 1s ease-in-out infinite ',
         wave: 'wave 3s ease-in-out infinite',
-        play: 'play 12s ease-in-out infinite'
+        play: 'play 11s ease-in-out infinite'
       },
       backgroundSize: {
         'size-200': '200% 200%',

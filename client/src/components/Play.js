@@ -12,16 +12,16 @@ const Play = () => {
                 </a>
 
                 <div className='flex flex-row gap-3 col-start-1 col-end-1 row-start-2 row-end-3'>
-                    <div className='flex items-center text-2xl'><FaGithub /></div>
-                    <div className='flex items-center text-2xl'><FaLinkedin /></div>
+                    <a href="https://github.com/genfengl" className='flex items-center text-2xl'><FaGithub /></a>
+                    <a href="https://linkedin.com/in/geraldlgf" className='flex items-center text-2xl'><FaLinkedin /></a>
                 </div>
                 <div className="col-start-2 col-end-3 row-span-2 relative w-full max-w z-10">
-                    <div className="absolute -top-4 -right-4 w-36 h-36 bg-purple-300 rounded-full 
-                    mix-blend-multiply filter blur-2xl opacity-70 animate-play "></div>
-                    <div className="absolute top-0 -left-12 w-36 h-36 bg-blue-300 rounded-full 
-                    mix-blend-multiply filter blur-2xl opacity-70 animate-play animation-delay-2000"></div>
-                    <div className="absolute -bottom-10 right-2 w-36 h-36 bg-pink-300 rounded-full 
-                    mix-blend-multiply filter blur-2xl opacity-70 animate-play animation-delay-4000"></div>
+                    <div className="absolute top-0 -right-4 w-36 h-36 bg-purple-300 rounded-full 
+                    mix-blend-multiply filter blur-2xl opacity-60 animate-play "></div>
+                    <div className="absolute top-2 -left-8 w-36 h-36 bg-blue-300 rounded-full 
+                    mix-blend-multiply filter blur-2xl opacity-60 animate-play animation-delay-3000"></div>
+                    <div className="absolute -bottom-8 right-2 w-36 h-36 bg-pink-300 rounded-full 
+                    mix-blend-multiply filter blur-2xl opacity-60 animate-play animation-delay-5000"></div>
                 </div>
             </div>
         </section>
