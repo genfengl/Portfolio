@@ -16,8 +16,9 @@ const Skills = () => {
             <div className="container mx-auto flex flex-col px-6 py-16 gap-6">
                 {/* Skills Title */}
                 <div className="flex flex-col justify-center items-center py-6">
-                    <div className="text-5xl text-center font-bold"> Skills</div>
-                    <div className='text-center mt-0.5 bg-word h-1 w-[7.5rem]'></div>
+                    <div className='text-center mt-0.5 bg-pink-600 h-4 w-[7.7rem] translate-y-12'></div>
+                    <div className="relative text-5xl text-center font-bold"> Skills</div>
+
                 </div>
                 {/* Software Dev Section */}
                 <div>

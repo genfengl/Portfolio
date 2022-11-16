@@ -9,7 +9,6 @@ const About = () => {
                     I'm Gerald, a software engineer, skilled in frontend, full stack and web development. <br />
                     Big fan of creating sustainable, agile and efficient solutions to problems.
                 </div>
-                
             </div>
         </section>
     )
